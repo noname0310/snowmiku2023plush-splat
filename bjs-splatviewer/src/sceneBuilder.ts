@@ -2,9 +2,9 @@ import "@babylonjs/core/Loading/loadingScreen";
 import "@babylonjs/core/Meshes/thinInstanceMesh";
 import "@babylonjs/core/Materials/standardMaterial";
 
-import { KeyboardEventTypes } from "@babylonjs/core";
 import { ArcRotateCamera } from "@babylonjs/core/Cameras/arcRotateCamera";
 import type { Engine } from "@babylonjs/core/Engines/engine";
+import { KeyboardEventTypes } from "@babylonjs/core/Events/keyboardEvents";
 import { Vector3 } from "@babylonjs/core/Maths/math.vector";
 import { GaussianSplattingMesh } from "@babylonjs/core/Meshes/GaussianSplatting/gaussianSplattingMesh";
 import { Scene } from "@babylonjs/core/scene";
