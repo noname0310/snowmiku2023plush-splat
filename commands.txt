@@ -1,0 +1,5 @@
+python convert.py -s "../snowmiku2023plush-splat" --skip_matching
+
+python train.py -s "../snowmiku2023plush-splat" -m "../snowmiku2023plush-splat/output"
+
+python convert.py "../snowmiku2023plush-splat/output/point_cloud/iteration_30000/point_cloud.ply" "../snowmiku2023plush-splat/bjs-splatviewer/res/snowmiku2023plush.splat"

@@ -1,0 +1,35 @@
+{
+    "name": "bjs-splatviewer",
+    "version": "0.0.0",
+    "description": "Simple Babylon.js project to view splat file",
+    "scripts": {
+        "start": "webpack serve --mode development",
+        "build": "webpack --env production",
+        "lint": "eslint --ext .ts,.tsx . --fix --cache"
+    },
+    "author": "noname0310",
+    "license": "MIT",
+    "devDependencies": {
+        "@babylonjs/inspector": "^6.41.1",
+        "@babylonjs/loaders": "^6.41.1",
+        "@babylonjs/materials": "^6.41.1",
+        "@typescript-eslint/eslint-plugin": "^6.21.0",
+        "@typescript-eslint/parser": "^6.21.0",
+        "copy-webpack-plugin": "^12.0.2",
+        "eslint": "^8.56.0",
+        "eslint-plugin-simple-import-sort": "^10.0.0",
+        "eslint-webpack-plugin": "^4.0.1",
+        "html-loader": "^5.0.0",
+        "html-webpack-plugin": "^5.6.0",
+        "ts-loader": "^9.5.1",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3",
+        "url": "^0.11.3",
+        "webpack": "^5.90.1",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^4.15.1"
+    },
+    "dependencies": {
+        "@babylonjs/core": "^6.41.1"
+    }
+}
